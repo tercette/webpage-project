@@ -22,7 +22,7 @@ main {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border-color: #ff5454 ;
+    border-color: #ff5454;
     /* border-color: #ff5454 !important; */
 }
 

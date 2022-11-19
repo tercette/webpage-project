@@ -101,7 +101,7 @@ body {
 
 .main-footer__link a:hover,
 .main-footer__link a:active {
-    color: #ccc ;
+    color: #ccc;
 }
 
 .button {
@@ -122,5 +122,5 @@ body {
 }
 
 .button:focus {
-    outline: none ;
+    outline: none;
 }
