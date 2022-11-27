@@ -24,6 +24,7 @@ main {
     width: 100%;
 }
 
+
 /* .signup-form input[type="checkbox"] */
 .signup-form input[id*="terms"],
 .signup-form input[id*="terms"] + label {
@@ -59,6 +60,13 @@ main {
 .signup-form input[type="checkbox"]:checked {
     background: #2ddf5c;
     border: #0e4f1f;
+}
+
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+    border-color: red !important;
+    background: rgb(250,175,172)
 }
 
 .signup-form button[type="submit"] {
