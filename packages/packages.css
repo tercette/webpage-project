@@ -1,11 +1,11 @@
 @font-face {
     font-family: "AnonymousPro";
-    src: url("anonymousPro-Regular.ttf");
+    src: url("anonymousPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "AnonymousPro";
-    src: url("anonymousPro-Bold.ttf");
+    src: url("anonymousPro-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
@@ -33,7 +33,7 @@ main {
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-color: #ff5454;
     /* border-color: #ff5454 !important; */
 }
@@ -63,12 +63,11 @@ main {
 .package__info {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
-    font-family: "AnonymousPro", sans-serif;
-    font-weight: 700;
-    
+    text-shadow: 1px 1px 3px rgb(128, 128, 128);
+    font: 700 1.2rem "AnonymousPro", sans-serif;
+    /* font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
@@ -106,23 +105,23 @@ main {
 
 @media (min-width: 40rem) {
     main {
-      max-width: 1500px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 @media (min-width: 1500px) {
     .package {
-      border-left: 4px solid #0e4f1f;
+        border-left: 4px solid #0e4f1f;
     }
 
     #free {
-      border-right: 4px solid #0e4f1f;
+        border-right: 4px solid #0e4f1f;
     }
 
     #free:hover,
     #free:active {
-      border-right-color: #ff5454;
+        border-right-color: #ff5454;
     }
 }
