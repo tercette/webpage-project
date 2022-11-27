@@ -28,7 +28,7 @@ body {
   z-index: 1;
 }
 
-.main-header>div {
+.main-header > div {
   display: inline-block;
   vertical-align: middle;
 }
@@ -116,7 +116,7 @@ body {
   border: none;
 }
 
-@media(min-width: 40rem) {
+@media (min-width: 40rem) {
   .toggle-button {
     display: none;
   }
@@ -127,13 +127,7 @@ body {
     width: calc(100% - 44px);
     vertical-align: middle;
   }
-
-  .main-header__brand {
-    height: 1.8rem;
-    display: inline;
-  }
 }
-
 
 .main-footer {
   background: black;
@@ -213,7 +207,7 @@ body {
 }
 
 .open {
-  display: block !important;
+    display: block !important;
 }
 
 @media (min-width: 40rem) {
