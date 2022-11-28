@@ -34,7 +34,7 @@ main {
   left: 0;
   background: #2ddf5c;
   padding: 0.5rem 1rem;
-  z-index: 1;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
