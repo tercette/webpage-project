@@ -101,6 +101,11 @@ main {
   display: flex;
 }
 
+.main-nav__item[id="customers"]:hover ,
+.main-nav__item[id="packages"]:hover {
+  animation: pull-up 1s ease-out forwards ;
+}
+
 .main-nav__item {
   margin: 0 1rem;
 }
@@ -272,4 +277,17 @@ main {
   100% {
     transform: rotateZ(10deg);
   }
+}
+
+@keyframes pull-up {
+  0% {
+    transform: translateY(0) ;
+  }
+  50% {
+    transform: translateY(-0.3rem) ;
+  }
+  100% {
+    transform: translateY(-0.3rem) ;
+  }
+  
 }
