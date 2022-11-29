@@ -16,7 +16,7 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
         backdrop.style.display = 'block'
         setTimeout(function(){
             backdrop.classList.add('open')
-        },10);
+        },200);
     });
 }
 
@@ -50,6 +50,6 @@ toggleButton.addEventListener('click', function() {
     backdrop.style.display = 'block'
     setTimeout(function(){
         backdrop.classList.add('open');
-    },10);
+    },200);
 })
 
