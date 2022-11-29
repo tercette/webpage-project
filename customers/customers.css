@@ -108,23 +108,3 @@ main {
   }
 
 }
-
-.main-nav__item[id="customers"]:hover,
-.main-nav__item[id="packages"]:hover {
-  animation: pull-up 1s ease-out forwards;
-}
-
-@keyframes pull-up {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-0.3rem);
-  }
-
-  100% {
-    transform: translateY(-0.3rem);
-  }
-
-}
